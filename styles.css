@@ -1,0 +1,57 @@
+/* styles.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f0f0f0;
+  background-image: url('background.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; /* Change background color here */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+.brand {
+  font-size: 24px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.user-grid {
+  display: flex;
+  flex-wrap: wrap; /* Allow user cards to wrap to the next row */
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.user-card {
+  background-color: #fff; /* Change background color here */
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  flex: 1; /* Allow user cards to take equal space in a row */
+  max-width: calc(33.33% - 20px); /* Adjust max-width to create three columns per row */
+  margin: 10px;
+}
+
+.loader {
+  display: none;
+  margin-top: 20px;
+  /* Add custom styles for the loader here */
+}
+
+  
